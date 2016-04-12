@@ -12,17 +12,32 @@ by collecting all the treasures you can.
 
 ##Elements:
 #[ ] - Jumper:
-[ ] - Has a constant forward velocity (or rather, the screen does?).
-[ ] - Has a downward acceleration as long as it is not on a platform. (aka falling)  
-[ ] - Landing on top of a platform will reset the Jumper's vertical velocity to zero.
-[ ] - Can JUMP while on a platform, which instantaneously adds vertical velocity
+[x] - Has a constant forward velocity (or rather, the screen does?).
+[x] - Has a downward acceleration as long as it is not on a platform. (aka falling)  
+[x] - Landing on top of a platform will reset the Jumper's vertical velocity to zero.
+[x] - Can JUMP while on a platform, which instantaneously adds vertical velocity
 [ ] - Dies upon contact with the bottom of the screen or an obstacle
 
 #[ ] - Platforms
-[ ] - have a horizontal surface that cannot be crossed
+[x] - have a horizontal surface that cannot be crossed
 
 #[ ] - Obstacles
 [ ] - Have some vertical component that causes death upon contact with the Jumper
 
 #[ ] - Treasures
-[ ] - Disappear on contactwith the Jumper, adding points to the Jumper's score
+[ ] - Disappear on contact with the Jumper, adding points to the Jumper's score
+
+##TODO
+
+[ ] - Landing fix.  Thought it was a double jump fix, but it was actually a grounding state check issue
+      Try using it as a state and checking at the end of each move call?
+
+<!--
+  Stuff to talk about:
+
+  generating platforms/objects/etc >>> timers
+
+  drawing objects, moving objects >>> inheritance, default options
+
+  held key issue
+ -->
