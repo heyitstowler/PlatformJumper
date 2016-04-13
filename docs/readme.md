@@ -29,8 +29,6 @@ by collecting all the treasures you can.
 
 ##TODO
 
-[ ] - Landing fix.  Thought it was a double jump fix, but it was actually a grounding state check issue
-      Try using it as a state and checking at the end of each move call?
 
 <!--
   Stuff to talk about:
