@@ -2,3 +2,7 @@
   font-family: "Emo";
   src: './assets/fonts/emo.ttf';
 }
+
+body {
+  background-color: #383838;
+}
