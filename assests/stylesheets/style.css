@@ -3,7 +3,12 @@
   src: './assets/fonts/emo.ttf';
 }
 
+body, canvas, div {
+  font-family: inherit;
+}
+
 body {
   background-color: #383838;
   padding: 20px;
+  font-family: "Emo";
 }
