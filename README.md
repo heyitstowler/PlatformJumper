@@ -51,12 +51,12 @@ as you navigate from platform to platform.
 
 Collecting treasures will increase your score by 50 points.  A bubble will pop up
 to indicate the score increase.  You'll also notice that the display at the bottom
-will update to keep track of how many treasures you've collected.
+will update to keep track of how many treasures you've collected.<br/>
 <img src="assets/screenshots/50_bubble_SS.png" style="border: 1px solid black" />
 <img src="assets/screenshots/display_SS.png" style="border: 1px solid black" />
 
 Collect 10 treasures and you'll see this bubble, indicating you've gotten an extra
-life!
+life!<br/>
 <img src="assets/screenshots/extra_life_SS.png" style="border: 1px solid black" />
 
 Every time you miss a platform and fall off the bottom of the screen, you will
