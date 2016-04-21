@@ -12,3 +12,16 @@ body {
   padding: 20px;
   font-family: "Emo";
 }
+
+a {
+  margin: 20px;
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+a.readme {
+  margin-top: 30px;
+}
